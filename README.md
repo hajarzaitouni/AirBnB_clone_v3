@@ -158,5 +158,7 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
 
 Second part of Airbnb: Joann Vuong
+The Third version of AirBnB_ RESTful API developed by: Hajar Zaitouni [Github](https://github.com/hajarzaitouni) and Oumaima El Madani [Github](https://github.com/Oumi102000)
+
 ## License
 Public Domain. No copy write protection. 
