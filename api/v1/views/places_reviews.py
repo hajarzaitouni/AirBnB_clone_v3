@@ -14,7 +14,7 @@ from api.v1.views import app_views
                  strict_slashes=False)
 def all_reviews(place_id):
     """ retreive list of all review objects of a place """
-    place = state.get(Place, place_id)
+    place = storage.get(Place, place_id)
     if place is None:
         abort(404)
     list_reviews = [review.to_dict() for review in place.reviews]
