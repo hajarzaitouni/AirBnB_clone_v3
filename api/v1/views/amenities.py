@@ -5,7 +5,7 @@ Create a view for Amenity objects that handles all default RESTFul API actions
 from flask import jsonify, abort, make_response, request
 from models import storage
 from models.amenity import Amenity
-from api,v1.views import app_views
+from api.v1.views import app_views
 
 
 @app_views.route('/amenities', methods=['GET'], strict_slashes=False)
