@@ -10,7 +10,7 @@ from models.user import User
 from api.v1.views import app_views
 
 
-@app_views.route('/places/<place_id>/reviews', mathods=['GET'],
+@app_views.route('/places/<place_id>/reviews', methods=['GET'],
                  strict_slashes=False)
 def all_reviews(place_id):
     """ retreive list of all review objects of a place """
